@@ -5,3 +5,7 @@ spring:
     name: cartmicroservice
   config:
     import: optional:configserver:http://localhost:8888
+  data:
+    mongodb:
+      uri: mongodb+srv://grocery-user:grocery-user-pass@cluster0.5kgsl.mongodb.net/groceryDB?retryWrites=true&w=majority
+      database: groceryDB
